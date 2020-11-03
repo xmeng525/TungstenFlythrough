@@ -3,7 +3,27 @@
 The Tungsten Flythrough Path files are coupled with [Tungsten Rendering Engine](https://github.com/tunabrain/tungsten) to render the specific scenes with flythrough path.
 The rendering JSON files were originally from Tungsten [Rendering Resources](https://benedikt-bitterli.me/resources/).
 
-By using the dataset, you agree to cite the following references.
+Example [Bedroom](https://github.com/xmeng525/TungstenFlythrough/tree/main/bedroom)
+
+![example bedroom](teasers/bedroom.gif)
+
+Example [Classroom](https://github.com/xmeng525/TungstenFlythrough/tree/main/classroom)
+
+![example classroom](teasers/classroom.gif)
+
+Example [Dining-room](https://github.com/xmeng525/TungstenFlythrough/tree/main/dining-room)
+
+![example dining-room](teasers/dining-room.gif)
+
+Example [Kitchen](https://github.com/xmeng525/TungstenFlythrough/tree/main/kitchen)
+
+![example kitchen](teasers/kitchen.gif)
+
+Example [Living-room-2](https://github.com/xmeng525/TungstenFlythrough/tree/main/living-room-2)
+
+![example living-room-2](teasers/living-room-2.gif)
+
+By using the flythrough path files, you agree to cite the following references.
 ```
 @misc{resources16,
    Author = {Benedikt Bitterli},
