@@ -1,0 +1,977 @@
+{
+    "media": [],
+    "bsdfs": [
+        {
+            "name": "Boxes",
+            "albedo": [
+                0.48304399847984314,
+                0.38466399908065796,
+                0.30156099796295166
+            ],
+            "type": "lambert"
+        },
+        {
+            "name": "PlasticCable",
+            "albedo": 0.558543,
+            "type": "lambert"
+        },
+        {
+            "name": "LampEmitter",
+            "albedo": 0.64,
+            "type": "lambert"
+        },
+        {
+            "name": "Blankets",
+            "albedo": [
+                0.48543548583984375,
+                0.4562634229660034,
+                0.42807474732398987
+            ],
+            "type": "lambert"
+        },
+        {
+            "name": "Bedsheets",
+            "albedo": "textures/wallpaper-1.jpg",
+            "type": "lambert"
+        },
+        {
+            "name": "Window",
+            "albedo": 0.028173,
+            "type": "lambert"
+        },
+        {
+            "name": "PictureBacking",
+            "albedo": [
+                0.11156699806451797,
+                0.037067998200654984,
+                0.01701599918305874
+            ],
+            "type": "lambert"
+        },
+        {
+            "name": "Picture",
+            "albedo": "textures/Teapot.png",
+            "type": "lambert"
+        },
+        {
+            "name": "Rocks1",
+            "albedo": [
+                0.35082700848579407,
+                0.24298599362373352,
+                0.17882999777793884
+            ],
+            "type": "lambert"
+        },
+        {
+            "name": "Rocks2",
+            "albedo": 0.098964,
+            "type": "lambert"
+        },
+        {
+            "name": "Rocks3",
+            "albedo": 0.558544,
+            "type": "lambert"
+        },
+        {
+            "name": "DecoPlant",
+            "albedo": [
+                0.04177200049161911,
+                0.01130599994212389,
+                0.007575000170618296
+            ],
+            "type": "lambert"
+        },
+        {
+            "name": "Painting",
+            "albedo": "textures/painting1.jpg",
+            "type": "lambert"
+        },
+        {
+            "name": "Carpet",
+            "albedo": "textures/painting2.jpg",
+            "type": "lambert"
+        },
+        {
+            "name": "Matress",
+            "albedo": "textures/painting3.jpg",
+            "type": "lambert"
+        },
+        {
+            "name": "WoodFloor",
+            "albedo": "textures/wood4.jpg",
+            "type": "rough_plastic",
+            "ior": 1.5,
+            "thickness": 1.0,
+            "sigma_a": 0.0,
+            "distribution": "ggx",
+            "roughness": 0.15
+        },
+        {
+            "name": "Walls2",
+            "albedo": 0.799999,
+            "type": "lambert"
+        },
+        {
+            "name": "WoodFurniture",
+            "albedo": "textures/panel-wood-3.jpg",
+            "type": "rough_plastic",
+            "ior": 1.5,
+            "thickness": 1.0,
+            "sigma_a": 0.0,
+            "distribution": "beckmann",
+            "roughness": 0.15
+        },
+        {
+            "name": "Walls",
+            "albedo": 0.799999,
+            "type": "lambert"
+        },
+        {
+            "name": "Mirror",
+            "albedo": 1.0,
+            "type": "mirror"
+        },
+        {
+            "name": "Aluminium",
+            "albedo": 1.0,
+            "type": "rough_conductor",
+            "distribution": "ggx",
+            "roughness": 0.2,
+            "material": "Al"
+        },
+        {
+            "name": "BookCover",
+            "albedo": 0.0,
+            "type": "lambert"
+        },
+        {
+            "name": "BookPages",
+            "albedo": 0.567027,
+            "type": "lambert"
+        },
+        {
+            "name": "LampMetal",
+            "albedo": 1.0,
+            "type": "rough_conductor",
+            "distribution": "ggx",
+            "roughness": 0.1,
+            "material": "Al"
+        },
+        {
+            "name": "LampGlass",
+            "albedo": 1.0,
+            "type": "rough_dielectric",
+            "ior": 1.5,
+            "distribution": "beckmann",
+            "enable_refraction": true,
+            "roughness": 0.1
+        },
+        {
+            "name": "PictureFrame",
+            "albedo": 1.0,
+            "type": "rough_conductor",
+            "distribution": "beckmann",
+            "roughness": 0.1,
+            "material": "Al"
+        },
+        {
+            "name": "Glass",
+            "albedo": 1.0,
+            "type": "dielectric",
+            "ior": 1.5,
+            "enable_refraction": true
+        },
+        {
+            "name": "Vase",
+            "albedo": 1.0,
+            "type": "dielectric",
+            "ior": 1.5,
+            "enable_refraction": true
+        },
+        {
+            "name": "Curtains",
+            "albedo": 1.0,
+            "type": "transparency",
+            "base": {
+                "albedo": 1.0,
+                "type": "lambert"
+            },
+            "alpha": 0.531049
+        },
+        {
+            "name": "CurtainRod",
+            "albedo": 0.5,
+            "type": "rough_conductor",
+            "distribution": "ggx",
+            "roughness": 0.1,
+            "material": "Al"
+        },
+        {
+            "name": "StainlessSmooth",
+            "albedo": 1.0,
+            "type": "mirror"
+        }
+    ],
+    "primitives": [
+        {
+            "transform": {},
+            "type": "mesh",
+            "smooth": true,
+            "backface_culling": false,
+            "recompute_normals": false,
+            "file": "models/Mesh044.wo3",
+            "bsdf": "Aluminium"
+        },
+        {
+            "transform": {},
+            "type": "mesh",
+            "smooth": true,
+            "backface_culling": false,
+            "recompute_normals": false,
+            "file": "models/Mesh047.wo3",
+            "bsdf": "Aluminium"
+        },
+        {
+            "transform": {},
+            "type": "mesh",
+            "smooth": true,
+            "backface_culling": false,
+            "recompute_normals": false,
+            "file": "models/Mesh032.wo3",
+            "bsdf": "WoodFurniture"
+        },
+        {
+            "transform": {},
+            "type": "mesh",
+            "smooth": true,
+            "backface_culling": false,
+            "recompute_normals": false,
+            "file": "models/Mesh028.wo3",
+            "bsdf": "StainlessSmooth"
+        },
+        {
+            "transform": {},
+            "type": "mesh",
+            "smooth": true,
+            "backface_culling": false,
+            "recompute_normals": false,
+            "file": "models/Mesh046.wo3",
+            "bsdf": "Aluminium"
+        },
+        {
+            "transform": {},
+            "type": "mesh",
+            "smooth": true,
+            "backface_culling": false,
+            "recompute_normals": false,
+            "file": "models/Mesh027.wo3",
+            "bsdf": "Aluminium"
+        },
+        {
+            "transform": {},
+            "type": "mesh",
+            "smooth": true,
+            "backface_culling": false,
+            "recompute_normals": false,
+            "file": "models/Mesh022.wo3",
+            "bsdf": "Aluminium"
+        },
+        {
+            "transform": {},
+            "type": "mesh",
+            "smooth": true,
+            "backface_culling": false,
+            "recompute_normals": false,
+            "file": "models/Mesh042.wo3",
+            "bsdf": "Aluminium"
+        },
+        {
+            "transform": {},
+            "type": "mesh",
+            "smooth": true,
+            "backface_culling": false,
+            "recompute_normals": false,
+            "file": "models/Mesh036.wo3",
+            "bsdf": "Aluminium"
+        },
+        {
+            "transform": {},
+            "type": "mesh",
+            "smooth": true,
+            "backface_culling": false,
+            "recompute_normals": false,
+            "file": "models/Mesh043.wo3",
+            "bsdf": "Aluminium"
+        },
+        {
+            "transform": {},
+            "type": "mesh",
+            "smooth": true,
+            "backface_culling": false,
+            "recompute_normals": false,
+            "file": "models/Mesh040.wo3",
+            "bsdf": "Aluminium"
+        },
+        {
+            "transform": {},
+            "type": "mesh",
+            "smooth": true,
+            "backface_culling": false,
+            "recompute_normals": false,
+            "file": "models/Mesh037.wo3",
+            "bsdf": "LampGlass"
+        },
+        {
+            "transform": {},
+            "type": "mesh",
+            "smooth": true,
+            "backface_culling": false,
+            "recompute_normals": false,
+            "file": "models/Mesh026.wo3",
+            "bsdf": "LampGlass"
+        },
+        {
+            "transform": {},
+            "type": "mesh",
+            "smooth": true,
+            "backface_culling": false,
+            "recompute_normals": false,
+            "file": "models/Mesh023.wo3",
+            "bsdf": "LampMetal"
+        },
+        {
+            "transform": {},
+            "type": "mesh",
+            "smooth": true,
+            "backface_culling": false,
+            "recompute_normals": false,
+            "file": "models/Mesh059.wo3",
+            "bsdf": "LampEmitter"
+        },
+        {
+            "transform": {},
+            "type": "mesh",
+            "smooth": true,
+            "backface_culling": false,
+            "recompute_normals": false,
+            "file": "models/Mesh049.wo3",
+            "bsdf": "LampGlass"
+        },
+        {
+            "transform": {},
+            "type": "mesh",
+            "smooth": false,
+            "backface_culling": false,
+            "recompute_normals": false,
+            "file": "models/Mesh060.wo3",
+            "bsdf": "WoodFloor"
+        },
+        {
+            "transform": {},
+            "type": "mesh",
+            "smooth": true,
+            "backface_culling": false,
+            "recompute_normals": false,
+            "file": "models/Mesh033.wo3",
+            "bsdf": "DecoPlant"
+        },
+        {
+            "transform": {},
+            "type": "mesh",
+            "smooth": true,
+            "backface_culling": false,
+            "recompute_normals": false,
+            "file": "models/Mesh025.wo3",
+            "bsdf": "Rocks1"
+        },
+        {
+            "transform": {},
+            "type": "mesh",
+            "smooth": true,
+            "backface_culling": false,
+            "recompute_normals": false,
+            "file": "models/Mesh055.wo3",
+            "bsdf": "Rocks2"
+        },
+        {
+            "transform": {},
+            "type": "mesh",
+            "smooth": true,
+            "backface_culling": false,
+            "recompute_normals": false,
+            "file": "models/Mesh035.wo3",
+            "bsdf": "Rocks3"
+        },
+        {
+            "transform": {},
+            "type": "mesh",
+            "smooth": true,
+            "backface_culling": false,
+            "recompute_normals": false,
+            "file": "models/Mesh048.wo3",
+            "bsdf": "LampGlass"
+        },
+        {
+            "transform": {},
+            "type": "mesh",
+            "smooth": true,
+            "backface_culling": false,
+            "recompute_normals": false,
+            "file": "models/Mesh056.wo3",
+            "bsdf": "LampMetal"
+        },
+        {
+            "transform": {},
+            "type": "mesh",
+            "smooth": true,
+            "backface_culling": false,
+            "recompute_normals": false,
+            "file": "models/Mesh058.wo3",
+            "bsdf": "PlasticCable"
+        },
+        {
+            "transform": {},
+            "type": "mesh",
+            "smooth": true,
+            "backface_culling": false,
+            "recompute_normals": false,
+            "file": "models/Mesh061.wo3",
+            "bsdf": "LampEmitter"
+        },
+        {
+            "transform": {},
+            "type": "mesh",
+            "smooth": true,
+            "backface_culling": false,
+            "recompute_normals": false,
+            "file": "models/Mesh051.wo3",
+            "bsdf": "LampGlass"
+        },
+        {
+            "transform": {},
+            "type": "mesh",
+            "smooth": true,
+            "backface_culling": false,
+            "recompute_normals": false,
+            "file": "models/Mesh066.wo3",
+            "bsdf": "LampMetal"
+        },
+        {
+            "transform": {},
+            "type": "mesh",
+            "smooth": true,
+            "backface_culling": false,
+            "recompute_normals": false,
+            "file": "models/Mesh062.wo3",
+            "bsdf": "PlasticCable"
+        },
+        {
+            "transform": {},
+            "type": "mesh",
+            "smooth": true,
+            "backface_culling": false,
+            "recompute_normals": false,
+            "file": "models/Mesh054.wo3",
+            "bsdf": "LampEmitter"
+        },
+        {
+            "transform": {},
+            "type": "mesh",
+            "smooth": true,
+            "backface_culling": false,
+            "recompute_normals": false,
+            "file": "models/Mesh063.wo3",
+            "bsdf": "BookCover"
+        },
+        {
+            "transform": {},
+            "type": "mesh",
+            "smooth": true,
+            "backface_culling": false,
+            "recompute_normals": false,
+            "file": "models/Mesh064.wo3",
+            "bsdf": "BookPages"
+        },
+        {
+            "transform": {},
+            "type": "mesh",
+            "smooth": true,
+            "backface_culling": false,
+            "recompute_normals": false,
+            "file": "models/Mesh057.wo3",
+            "bsdf": "Curtains"
+        },
+        {
+            "transform": {},
+            "type": "mesh",
+            "smooth": true,
+            "backface_culling": false,
+            "recompute_normals": false,
+            "file": "models/Mesh041.wo3",
+            "bsdf": "Bedsheets"
+        },
+        {
+            "transform": {},
+            "type": "mesh",
+            "smooth": true,
+            "backface_culling": false,
+            "recompute_normals": false,
+            "file": "models/Mesh052.wo3",
+            "bsdf": "Glass"
+        },
+        {
+            "transform": {},
+            "type": "mesh",
+            "smooth": true,
+            "backface_culling": false,
+            "recompute_normals": false,
+            "file": "models/Mesh065.wo3",
+            "bsdf": "Vase"
+        },
+        {
+            "transform": {},
+            "type": "mesh",
+            "smooth": true,
+            "backface_culling": false,
+            "recompute_normals": false,
+            "file": "models/Mesh067.wo3",
+            "bsdf": "Vase"
+        },
+        {
+            "transform": {},
+            "type": "mesh",
+            "smooth": true,
+            "backface_culling": false,
+            "recompute_normals": false,
+            "file": "models/Mesh068.wo3",
+            "bsdf": "Bedsheets"
+        },
+        {
+            "transform": {},
+            "type": "mesh",
+            "smooth": true,
+            "backface_culling": false,
+            "recompute_normals": false,
+            "file": "models/Mesh034.wo3",
+            "bsdf": "Bedsheets"
+        },
+        {
+            "transform": {},
+            "type": "mesh",
+            "smooth": true,
+            "backface_culling": false,
+            "recompute_normals": false,
+            "file": "models/Mesh021.wo3",
+            "bsdf": "Matress"
+        },
+        {
+            "transform": {
+                "position": [
+                    -0.4418520927429199,
+                    0.0,
+                    0.0
+                ]
+            },
+            "type": "mesh",
+            "smooth": true,
+            "backface_culling": false,
+            "recompute_normals": false,
+            "file": "models/Mesh020.wo3",
+            "bsdf": "Carpet"
+        },
+        {
+            "transform": {
+                "position": [
+                    -0.4418520927429199,
+                    0.0,
+                    0.0
+                ]
+            },
+            "type": "mesh",
+            "smooth": true,
+            "backface_culling": false,
+            "recompute_normals": false,
+            "file": "models/Mesh019.wo3",
+            "bsdf": "Carpet"
+        },
+        {
+            "transform": {
+                "position": [
+                    -0.10999999940395355,
+                    0.0,
+                    0.0
+                ]
+            },
+            "type": "mesh",
+            "smooth": true,
+            "backface_culling": false,
+            "recompute_normals": false,
+            "file": "models/Mesh018.wo3",
+            "bsdf": "Painting"
+        },
+        {
+            "transform": {
+                "position": [
+                    -0.2358992099761963,
+                    0.0,
+                    0.0
+                ]
+            },
+            "type": "mesh",
+            "smooth": true,
+            "backface_culling": false,
+            "recompute_normals": false,
+            "file": "models/Mesh017.wo3",
+            "bsdf": "Painting"
+        },
+        {
+            "transform": {},
+            "type": "mesh",
+            "smooth": true,
+            "backface_culling": false,
+            "recompute_normals": false,
+            "file": "models/Mesh015.wo3",
+            "bsdf": "CurtainRod"
+        },
+        {
+            "transform": {},
+            "type": "mesh",
+            "smooth": true,
+            "backface_culling": false,
+            "recompute_normals": false,
+            "file": "models/Mesh014.wo3",
+            "bsdf": "CurtainRod"
+        },
+        {
+            "transform": {},
+            "type": "mesh",
+            "smooth": true,
+            "backface_culling": false,
+            "recompute_normals": false,
+            "file": "models/Mesh012.wo3",
+            "bsdf": "WoodFurniture"
+        },
+        {
+            "transform": {},
+            "type": "mesh",
+            "smooth": true,
+            "backface_culling": false,
+            "recompute_normals": false,
+            "file": "models/Mesh011.wo3",
+            "bsdf": "Mirror"
+        },
+        {
+            "transform": {},
+            "type": "mesh",
+            "smooth": true,
+            "backface_culling": false,
+            "recompute_normals": false,
+            "file": "models/Mesh013.wo3",
+            "bsdf": "Walls"
+        },
+        {
+            "transform": {},
+            "type": "mesh",
+            "smooth": true,
+            "backface_culling": false,
+            "recompute_normals": false,
+            "file": "models/Mesh039.wo3",
+            "bsdf": "Window"
+        },
+        {
+            "transform": {},
+            "type": "mesh",
+            "smooth": true,
+            "backface_culling": false,
+            "recompute_normals": false,
+            "file": "models/Mesh010.wo3",
+            "bsdf": "Window"
+        },
+        {
+            "transform": {},
+            "type": "mesh",
+            "smooth": true,
+            "backface_culling": false,
+            "recompute_normals": false,
+            "file": "models/Mesh031.wo3",
+            "bsdf": "WoodFurniture"
+        },
+        {
+            "transform": {},
+            "type": "mesh",
+            "smooth": true,
+            "backface_culling": false,
+            "recompute_normals": false,
+            "file": "models/Mesh045.wo3",
+            "bsdf": "StainlessSmooth"
+        },
+        {
+            "transform": {},
+            "type": "mesh",
+            "smooth": true,
+            "backface_culling": false,
+            "recompute_normals": false,
+            "file": "models/Mesh038.wo3",
+            "bsdf": "Mirror"
+        },
+        {
+            "transform": {},
+            "type": "mesh",
+            "smooth": true,
+            "backface_culling": false,
+            "recompute_normals": false,
+            "file": "models/Mesh009.wo3",
+            "bsdf": "WoodFurniture"
+        },
+        {
+            "transform": {},
+            "type": "mesh",
+            "smooth": true,
+            "backface_culling": false,
+            "recompute_normals": false,
+            "file": "models/Mesh024.wo3",
+            "bsdf": "StainlessSmooth"
+        },
+        {
+            "transform": {},
+            "type": "mesh",
+            "smooth": true,
+            "backface_culling": false,
+            "recompute_normals": false,
+            "file": "models/Mesh030.wo3",
+            "bsdf": "WoodFurniture"
+        },
+        {
+            "transform": {},
+            "type": "mesh",
+            "smooth": true,
+            "backface_culling": false,
+            "recompute_normals": false,
+            "file": "models/Mesh029.wo3",
+            "bsdf": "StainlessSmooth"
+        },
+        {
+            "transform": {},
+            "type": "mesh",
+            "smooth": true,
+            "backface_culling": false,
+            "recompute_normals": false,
+            "file": "models/Mesh008.wo3",
+            "bsdf": "Walls2"
+        },
+        {
+            "transform": {},
+            "type": "mesh",
+            "smooth": false,
+            "backface_culling": false,
+            "recompute_normals": false,
+            "file": "models/Mesh007.wo3",
+            "bsdf": "WoodFurniture"
+        },
+        {
+            "transform": {},
+            "type": "mesh",
+            "smooth": true,
+            "backface_culling": false,
+            "recompute_normals": false,
+            "file": "models/Mesh006.wo3",
+            "bsdf": "WoodFurniture"
+        },
+        {
+            "transform": {},
+            "type": "mesh",
+            "smooth": true,
+            "backface_culling": false,
+            "recompute_normals": false,
+            "file": "models/Mesh005.wo3",
+            "bsdf": "StainlessSmooth"
+        },
+        {
+            "transform": {},
+            "type": "mesh",
+            "smooth": true,
+            "backface_culling": false,
+            "recompute_normals": false,
+            "file": "models/Mesh004.wo3",
+            "bsdf": "Curtains"
+        },
+        {
+            "transform": {},
+            "type": "mesh",
+            "smooth": true,
+            "backface_culling": false,
+            "recompute_normals": false,
+            "file": "models/Mesh050.wo3",
+            "bsdf": "PictureFrame"
+        },
+        {
+            "transform": {},
+            "type": "mesh",
+            "smooth": true,
+            "backface_culling": false,
+            "recompute_normals": false,
+            "file": "models/Mesh053.wo3",
+            "bsdf": "PictureBacking"
+        },
+        {
+            "transform": {},
+            "type": "mesh",
+            "smooth": true,
+            "backface_culling": false,
+            "recompute_normals": false,
+            "file": "models/Mesh003.wo3",
+            "bsdf": "Picture"
+        },
+        {
+            "transform": {},
+            "type": "mesh",
+            "smooth": true,
+            "backface_culling": false,
+            "recompute_normals": false,
+            "file": "models/Mesh002.wo3",
+            "bsdf": "Boxes"
+        },
+        {
+            "transform": {},
+            "type": "mesh",
+            "smooth": true,
+            "backface_culling": false,
+            "recompute_normals": false,
+            "file": "models/Mesh016.wo3",
+            "bsdf": "Blankets"
+        },
+        {
+            "transform": {},
+            "type": "mesh",
+            "smooth": true,
+            "backface_culling": false,
+            "recompute_normals": false,
+            "file": "models/Mesh001.wo3",
+            "bsdf": "Blankets"
+        },
+        {
+            "transform": {},
+            "type": "mesh",
+            "smooth": true,
+            "backface_culling": false,
+            "recompute_normals": false,
+            "file": "models/Mesh000.wo3",
+            "bsdf": "Blankets"
+        },
+        {
+            "transform": {
+                "position": [
+                    -1.4754376411437988,
+                    1.1896802186965942,
+                    -1.2673535346984863
+                ],
+                "scale": [
+                    1.0648202896118164,
+                    1.0,
+                    1.815588116645813
+                ],
+                "rotation": [
+                    90.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            "power": 100.0,
+            "type": "quad",
+            "bsdf": {
+                "albedo": 1.0,
+                "type": "null"
+            }
+        },
+        {
+            "transform": {
+                "position": [
+                    1.4437944889068604,
+                    1.1896802186965942,
+                    -1.2673544883728027
+                ],
+                "scale": [
+                    1.0648202896118164,
+                    1.0,
+                    1.815588116645813
+                ],
+                "rotation": [
+                    90.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            "power": 100.0,
+            "type": "quad",
+            "bsdf": {
+                "albedo": 1.0,
+                "type": "null"
+            }
+        },
+        {
+            "transform": {
+                "position": [
+                    -1.1020985841751099,
+                    0.09580427408218384,
+                    0.0
+                ]
+            },
+            "type": "mesh",
+            "smooth": true,
+            "backface_culling": false,
+            "recompute_normals": false,
+            "file": "models/Mesh018.wo3",
+            "bsdf": "Painting"
+        }
+    ],
+    "camera": {
+        "tonemap": "filmic",
+        "resolution": [
+            1280,
+            720
+        ],
+        "reconstruction_filter": "tent",
+        "transform": {
+            "position": [
+                2.246,
+                1.2,
+                3.5,
+            ],
+            "look_at": [
+                0.0942695364356041,
+                1.1369876861572266,
+                0.39623117446899414
+            ],
+            "up": [
+                0.0,
+                1.0,
+                0.0
+            ]
+        },
+        "type": "pinhole",
+        "fov": 65.0
+    },
+    "integrator": {
+        "min_bounces": 0,
+        "max_bounces": 64,
+        "enable_consistency_checks": false,
+        "enable_two_sided_shading": true,
+        "type": "path_tracer",
+        "enable_light_sampling": true,
+        "enable_volume_light_sampling": true
+    },
+    "renderer": {
+        "overwrite_output_files": true,
+        "adaptive_sampling": true,
+        "enable_resume_render": false,
+        "stratified_sampler": true,
+        "scene_bvh": true,
+        "spp": 4096,
+        "spp_step": 1024,
+        "checkpoint_interval": "0",
+        "timeout": "0",
+        "resume_render_file": "TungstenRenderState.dat",
+        "hdr_output_file": "spp_4096_data/61/color.exr",
+        "output_file": "spp_4096_data/61/color.png",
+    }
+}
